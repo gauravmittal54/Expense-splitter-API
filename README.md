@@ -50,7 +50,7 @@ The simplify_expenses API uses the calculate_min_cash_flow algorithm to minimize
 | share             | TextField    | Share details (for EXACT and PERCENT types)              |
 | participants_ids  | TextField    | IDs of participants in the expense                       |
 | timestamp         | DateTime     | Timestamp of when the expense record was created/ipdated |
-...
+
 
 
 ## 5. Views Structure
