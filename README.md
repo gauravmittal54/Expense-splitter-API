@@ -121,7 +121,7 @@ The simplify_expenses API uses the calculate_min_cash_flow algorithm to minimize
 - **Controller:** `passbook_controller`
 
 ## 6. Postman Test Results
-See [screenshots.md]([https://github.com/your-username/your-repository/screenshots.md](https://github.com/gauravmittal54/Expense-splitter-API/blob/main/screenshots.md)https://github.com/gauravmittal54/Expense-splitter-API/blob/main/screenshots.md) for Postman test results.
+See [screenshots.md](https://github.com/gauravmittal54/Expense-splitter-API/blob/main/screenshots.md) for Postman test results.
 
 
 
