@@ -1,15 +1,5 @@
 # Expense Splitter API
 
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Architecture Flow](#architecture-flow)
-3. [API Endpoints](#api-endpoints)
-4. [Database Schema](#database-schema)
-5. [Views Structure](#views-structure)
-6. [Postman Test Results](#postman-test-results)
-
-
 ## 1. Overview
 
 The Expense Sharing Application is designed to facilitate expense management and sharing among users. Users can add expenses, split them among different people, and keep track of balances.
