@@ -7,6 +7,7 @@
 3. [API Endpoints](#api-endpoints)
 4. [Database Schema](#database-schema)
 5. [Views Structure](#views-structure)
+6. [Postman Test Results](#postman-test-results)
 
 
 ## 1. Overview
@@ -118,6 +119,9 @@ The simplify_expenses API uses the calculate_min_cash_flow algorithm to minimize
 - **Methods:**
   - `GET`: Get passbook details for a user
 - **Controller:** `passbook_controller`
+
+## 6. Postman Test Results
+See [screenshots.md](https://github.com/your-username/your-repository/screenshots.md) for Postman test results.
 
 
 
