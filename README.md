@@ -3,7 +3,7 @@
 ## Table of Contents
 
 1. [Overview](#overview)
-2. [Architecture Diagram](#architecture-diagram)
+2. [Architecture Flow](#architecture-flow)
 3. [API Endpoints](#api-endpoints)
 4. [Database Schema](#database-schema)
 5. [Views Structure](#views-structure)
@@ -13,9 +13,13 @@
 
 The Expense Sharing Application is designed to facilitate expense management and sharing among users. Users can add expenses, split them among different people, and keep track of balances.
 
-## 2. Architecture Diagram
+## 2. Architecture Flow
 
-Insert an architecture diagram here to illustrate the high-level components and their interactions.
+1. API Flow:
+Requests flow from views to controllers, where business logic is processed, then to serializers for data conversion, and finally to utility functions for additional processing.
+2. Simplify Expenses Algorithm:
+The simplify_expenses API uses the calculate_min_cash_flow algorithm to minimize transactions, updating user owe amounts without changing existing balances (User.owe).
+
 
 ## 3. API Endpoints
 
