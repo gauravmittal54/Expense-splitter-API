@@ -15,9 +15,9 @@ The Expense Sharing Application is designed to facilitate expense management and
 
 ## 2. Architecture Flow
 
-1. API Flow:
+#### API Flow:
 Requests flow from views to controllers, where business logic is processed, then to serializers for data conversion, and finally to utility functions for additional processing.
-2. Simplify Expenses Algorithm:
+#### Simplify Expenses Algorithm:
 The simplify_expenses API uses the calculate_min_cash_flow algorithm to minimize transactions, updating user owe amounts without changing existing balances (User.owe).
 
 
